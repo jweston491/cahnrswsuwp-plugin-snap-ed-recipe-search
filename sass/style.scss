@@ -1,0 +1,67 @@
+@import 'grid';
+.recipe-search {
+    &.green-text{
+        color: #1E854B; 
+    }
+    &.btn-blue {
+        background-color: #014983;
+        border-radius: 4px;
+        border: 2px solid #014983;
+        outline: none;
+        right: 0;
+        float: right;
+        &:hover {
+            background: white;
+            color: #014983;
+        }
+    }
+    #recipe-search-sidebar {
+        padding-top: 0;
+        .search-label {
+            color: #1E854B;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .searchform {
+            margin-bottom: 2.75em;
+            &:after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            input[type="text"] {
+                display: block;
+                width: 100%;
+                border-radius: 4px;
+                border-width: 1px;
+                margin: 10px 0;
+            }
+        }
+        a.active {
+            color: #297BB3;
+        }
+    }
+
+    .recipe-result {
+        img {
+            height: auto !important;
+        }
+        img, a {
+            display: block;
+        }
+    }
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: white;
+}
+
+ul.list-style-none {
+    list-style-type: none;
+}
