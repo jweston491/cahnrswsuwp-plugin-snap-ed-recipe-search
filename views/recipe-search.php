@@ -12,7 +12,7 @@
 			$form = get_search_form( false );
 
 			// Keep form results on this page
-			$form = str_replace( 'action="' . esc_url( home_url( '/' ) ) . '"', 'action="' . esc_url( get_permalink( get_queried_object_id() ) ) . '"', $form );
+			$form = str_replace( 'action="' . esc_url( home_url( '/' ) ) . '"', '', $form );
 
 			// Let's add a hidden input field
 			$form = str_replace( '<input type="submit"', '<input type="hidden" name="cat" id="cat" value="' . $cat_id . '"><input class="recipe-search btn-blue text-uppercase" type="submit"', $form );
