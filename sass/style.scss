@@ -4,14 +4,14 @@
         color: #1E854B; 
     }
     &.btn-blue {
-        background-color: #014983;
+        background-color: #014983 !important;
         border-radius: 4px;
-        border: 2px solid #014983;
+        border: 2px solid #014983 !important;
         outline: none;
         right: 0;
         float: right;
         &:hover {
-            background: white;
+            background-color: white !important;
             color: #014983;
         }
     }
