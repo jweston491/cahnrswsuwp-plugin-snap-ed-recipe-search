@@ -27,7 +27,7 @@ class CAHNRSWSUWP_Plugin_SNAP_ED_Recipe_Search {
 
 	public function register_scripts() {
 		$css = plugin_dir_url( __FILE__ ) . 'css/style.min.css';
-		wp_register_style( 'recipe-search', $css, false, filemtime( plugin_dir_path( __FILE__ ) . 'css/style.min.css' ) );
+		wp_register_style( 'recipe-search', $css, false, false );
 	}
 
 	public function check_for_recipe() {
