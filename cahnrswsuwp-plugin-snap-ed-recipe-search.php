@@ -62,6 +62,10 @@ class CAHNRSWSUWP_Plugin_SNAP_ED_Recipe_Search {
 			'paged'          => $paged,
 		);
 
+		if ( isset( $_GET['search'] ) ) {
+			$query_args['s'] = $_GET['search'];
+		}
+
 		if ( $query_args['category_name'] ) {
 
 			wp_enqueue_style( 'recipe-search' );
