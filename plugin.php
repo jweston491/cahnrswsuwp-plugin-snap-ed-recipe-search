@@ -3,7 +3,7 @@
 Plugin Name: CAHNRSWSUWP Snap-Ed Recipe Search
 Version: 0.0.1
 Description: A shortcode that generates a search and filter feature for Recipes. Requires "recipe" category to exist in Posts.
-Author: washingtonstateuniversity, [Other Plugin Authors]
+Author: washingtonstateuniversity, jweston491
 Author URI: https://web.wsu.edu/
 Plugin URI: https://github.com/washingtonstateuniversity/cahnrswsuwp-plugin-snap-ed-recipe-search
 Text Domain: cahnrswsuwp-plugin-snap-ed-recipe-search
