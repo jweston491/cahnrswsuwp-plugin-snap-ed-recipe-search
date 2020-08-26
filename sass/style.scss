@@ -17,6 +17,9 @@
     }
     #recipe-search-sidebar {
         padding-top: 0;
+        @media only screen and (min-width:701px){
+            width: 25%;
+        }
         .search-label {
             color: #1E854B;
             font-size: 1rem;
@@ -62,6 +65,24 @@
     color: white;
 }
 
-ul.list-style-none {
-    list-style-type: none;
+ul {
+    &.list-style-none {
+        list-style-type: none;
+    }
+    &.recipe-search {
+        padding-right: 0;
+    }
 }
+#recipe-search-sidebar {
+    ul.recipe-search, label.recipe-search {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        -ms-word-break: break-all;
+        word-break: break-word;
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }  
+}
+

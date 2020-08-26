@@ -4215,6 +4215,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: #014983; }
 .recipe-search #recipe-search-sidebar {
   padding-top: 0; }
+  @media only screen and (min-width: 701px) {
+    .recipe-search #recipe-search-sidebar {
+      width: 25%; } }
   .recipe-search #recipe-search-sidebar .search-label {
     color: #1E854B;
     font-size: 1rem;
@@ -4247,3 +4250,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 ul.list-style-none {
   list-style-type: none; }
+ul.recipe-search {
+  padding-right: 0; }
+
+#recipe-search-sidebar ul.recipe-search, #recipe-search-sidebar label.recipe-search {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto; }

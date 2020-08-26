@@ -26,7 +26,7 @@
 			$children = get_term_children( $cat_id, 'category' );
 			if ( $children ) { ?>
 				<label class="recipe-search green-text text-uppercase"><?php echo esc_html( get_cat_name( $cat_id ) ) ?> Categories</label>
-				<ul class="list-style-none">
+				<ul class="recipe-search list-style-none">
 					<li><a href="<?php echo esc_url( get_permalink( get_queried_object_id() ) ) ?>">All</a>
 					<?php
 					foreach ( $children as $child ) {
